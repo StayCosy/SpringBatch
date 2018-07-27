@@ -2,7 +2,9 @@ package com.cosy.spring.batch.demo.dao;
 
 import com.cosy.spring.batch.demo.bean.ClassDependsBean;
 import com.cosy.spring.batch.demo.bean.ClassDependsBeanKey;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface ClassDependsBeanDao {
     int deleteByPrimaryKey(ClassDependsBeanKey key);
 
